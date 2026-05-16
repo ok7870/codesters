@@ -1,0 +1,79 @@
+
+<!doctype html>
+<html>
+  <head>
+  	<title>Blog</title>
+  	<link href="/template/template.css" rel="stylesheet" type="text/css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+  </head>
+  <body>
+    <section>
+      <h1>OWNERS</h1>
+      {% for owner in owners %}
+        <div>
+          <h3>{{ owner["name"] }} from {{ owner["city"] }}</h3>
+    			<p>
+              {% for dog in dogs if dog["ID"] in owner["owns"] %}
+    	        <span>{{ dog["name"] }}</span>
+    	      {% endfor %}
+    			</p>
+        </div>
+      {% endfor %}
+      <hr>
+    </section>
+    <section>
+      <h1>DOGS</h1>
+      <ul>
+        {% for dog in dogs %}
+          <li>
+            <span>{{ dog["name"] }}</span>
+            <em>( {{ dog["breed"] }} )</em>
+            <span>belongs to
+              {% for owner in owners if dog["ID"] in owner["owns"] %}
+                {{ owner["name"] }}
+              {% endfor %}
+            </span>
+          </li>
+        {% endfor %}
+      </ul>
+      <hr>
+    </section>
+
+ 
+
+    <section>
+      <h1>DOGS</h1>
+      <ul>
+        {% for dog in dogs %}
+          <li>
+            <span>{{ dog["name"] }}</span>
+            <em>( {{ dog["breed"] }} )</em>
+            <span>belongs to
+              {% for owner in owners if dog["ID"] in owner["owns"] %}
+                {{ owner["name"] }}
+              {% endfor %}
+            </span>
+          </li>
+        {% endfor %}
+      </ul>
+      <hr>
+    </section>
+
+    <section>
+        <h1>WALKIES</h1>
+        <ul>
+            {% for walker in walkers %}
+            <li>
+                <span>{{walker["name"]}} walks</span>
+                {% for dog in dogs if dog["ID"] in walker["walks"] %}
+                <em>{{dog["name"]}}</em>
+                {% endfor %}
+            </li>
+            {% endfor %}
+        </ul>
+    </section>
+
+
+  </body>
+</html>

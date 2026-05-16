@@ -1,0 +1,14 @@
+<!doctype html>
+<head>
+	<title>Web server</title>
+	<link href="/static/styles.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+	<h1>Hello</h1>
+  <p>Name: {{ user["first_name"] }} {{ user["last_name"] }}</p>
+  <p>Age: {{ user["age"] }}</p>
+
+  {% for x in user %}
+  	<p>{{ x }}</p>
+  {% endfor %}
+</body>

@@ -1,0 +1,16 @@
+combat actions on player
+
+damage to player [0]
+damagetoself[1]
+chargeup [time 2]
+
+defence [3]
+stun [4]
+stunonself [5]
+
+newwepon [6]
+
+funnyvoicelines [7]
+deathlines[8]
+notstealthfightbeginlines[9]
+stealthcombatbeign[10]

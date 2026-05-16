@@ -1,0 +1,18 @@
+.flex-container {
+    background-color: aqua;
+    color: orangered;
+    font-weight: bolder;
+    flex-wrap:wrap-reverse;
+    padding: 10px;
+    display: flex;
+    flex-direction: row-reverse;
+    position:absolute;
+}
+
+.flex-container2 {
+    position: initial;
+}
+
+.bold {
+    font-weight: bolder;
+}

@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+<head>
+	<title>Online store</title>
+	<link href="template/frontstyles.css" rel="stylesheet" type="text/css">
+</head>
+
+
+
+<body>
+
+    <header>
+        <h1 class="company">Library in internet</h1>
+    </header>
+
+    {%for bookid in books%}
+
+        {%if books[bookid]["rented"] == False and books[bookid]["sold"] == False%}
+            <p>{{books[bookid]["title"]}}</p>
+            <p>{{books[bookid]["author"]}}</p>
+            <p>{{books[bookid]["price"]}}</p>
+            <p>{{books[bookid]["rent"]}}</p>
+            <img src={{books[bookid]["picture"]}}>
+
+        {%elif books[bookid]["rented"] == True%}
+            <p>{{books[bookid]["title"]}}</p>
+            <p>{{books[bookid]["author"]}}</p>
+            <p>{{books[bookid]["price"]}}</p>
+            <p>{{books[bookid]["rent"]}}</p>
+            <img src={{books[bookid]["picture"]}}>
+            
+        {%elif books[bookid]["sold"] == True%}
+            <p>{{books[bookid]["title"]}}</p>
+            <p>{{books[bookid]["author"]}}</p>
+            <p>{{books[bookid]["price"]}}</p>
+            <p>{{books[bookid]["rent"]}}</p>
+            <img src={{books[bookid]["picture"]}}>
+        {%endif%}
+
+    {%endfor%}
+
+</body>

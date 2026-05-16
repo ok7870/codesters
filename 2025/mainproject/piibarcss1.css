@@ -1,0 +1,93 @@
+body{
+    margin: 0px;
+}
+
+
+.winky-sans {
+    font-family: "Winky Sans", sans-serif;
+    font-optical-sizing: auto;
+
+    font-weight: weight;
+    font-style: normal;
+}
+
+header{
+    display: Flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    height: 100px;
+    background-color: #FFDB8A;
+    color: black;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.LogoHeader{
+    font-weight: 500;
+    font-size: 50px;
+    margin: 0px;
+}
+
+.headerfoto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.LogoImageHeader{
+    margin-right: 10%;
+}
+
+.HeaderButton{
+    font-size: 25px;
+    border-radius: 10px;
+    border: solid 2px;
+}
+
+.Hero{
+    
+}
+
+.herobox{
+    padding-top: 2%;
+    padding-left: 3%;
+    margin-top: 2%;
+    margin-left: 10%;
+    width: 40%;
+    background-color: #FFF1D2;
+    border-radius: 20px;
+    flex-direction: row;
+    flex: 1;
+}
+
+.HeroText{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.heroheading{
+    font-weight: 900;
+    font-size: 60px;
+}
+
+.class1{
+/*    height: 1200px; */
+    width: 100%;
+    background-image: url(https://res.cloudinary.com/ddzof3lmg/image/upload/v1747147098/Piibar/b1q4nywkijhjiegslwwg.jpg);
+    background-size: 100%;
+    background-repeat:no-repeat;
+    height: 500px; 
+
+}
+
+.class1::before {
+    background: #000000;
+background: linear-gradient(0deg, rgb(141, 141, 141) 0%, rgba(255, 255, 255, 0) 50%);
+  content: '';
+  z-index: 10;
+  width: 100%;
+  height: 100%;
+  display: block;
+  position: absolute;
+}

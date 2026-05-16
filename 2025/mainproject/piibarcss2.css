@@ -1,0 +1,290 @@
+body{
+    margin: 0px;
+    background-color:  #fff9ed;
+}
+
+
+.winky-sans {
+    font-family: "Winky Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+header{
+    display: Flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    height: 100px;
+    background-color: #ffc336;
+    color: black;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.LogoHeader{
+    font-weight: 500;
+    font-size: 50px;
+    margin: 0px;
+}
+
+.headerfoto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.LogoImageHeader{
+    margin-right: 10%;
+    margin-left: -20%;
+    width: 13%;
+}
+
+.HeaderButton{
+    font-size: 25px;
+    border-radius: 10px;
+    border: solid 2px;
+}
+
+
+.herobox{
+    padding-top: 2%;
+    padding-left: 3%;
+    margin-top: 2%;
+    margin-left: 10%;
+    width: 40%;
+    background-color: #FFF1D2;
+    border-radius: 20px;
+    position: absolute;
+    top: 25%;
+}
+
+.HeroText{
+    display: flex;
+    flex-direction: column;
+}
+
+.hero-instrument{
+    width: 30%;
+    padding-bottom: 10%;
+}
+
+.heroheading{
+    font-weight: 900;
+    font-size: 350%;
+}
+
+.hero-background{
+    margin-top: 20%;
+    width: 100%;
+}
+
+.heroexplination{
+    font-size: 200%;
+}
+
+.testdivcolor{
+    background-color: black;
+    height: 500px;
+    width: 100%;
+}
+
+.recent-events-section{
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.events-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 70%;
+    height: 100%;
+}
+
+.single-event-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 30%;
+}
+
+.info-recent-events{
+    display: flex;
+    width: 60%;
+    flex-direction: column;
+    justify-self: center;
+    align-self: center;
+    align-items: center;
+}
+
+.single-event{
+    display: flex;
+    width: 45%;
+    height: 80%;
+    background-color: #ffc336;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.recent-events-link-comments {
+    transition-duration: 0.5s;
+    background-color: #1c87c9;
+    border: none;
+    color: white;
+    padding: 20px 34px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer; 
+    font-size: x-large;
+}
+
+.link.font-size{
+    font-size: x-large;
+}
+
+
+.recent-events-link-comments:hover {
+    transition-duration: 0.5s;
+    background-color: black; 
+}
+
+.singe-event-paragraph{
+   padding-left: 5%; 
+   padding-right: 5%;
+   padding-top: 5%;
+   font-size:x-large;
+}
+
+
+.invite-us{
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    background-color: #ffc336;
+    width: 80%;
+    border-radius: 20px;
+    overflow:hidden ;
+}
+
+.invite-us-paragraph{
+    font-size: x-large;
+    justify-self: center;
+}
+
+.invite-us-paragraph-div{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    margin-top: 60px;
+}
+
+.book-us-button {
+    justify-self: center;
+    font-size: x-large;
+    background-color: #1c87c9;
+    color: #FFF1D2;
+}
+
+.invite-us-background{
+    background-color:#FFF1D2;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20%;
+    height: 40%;
+    background-color: #D4E1FF;
+    align-items: center;
+}
+
+.footer-container{
+    margin-top: 5%;
+    width: 30%;
+    background-color: #B4C2E3;
+}
+
+@media screen and (max-width: 1400px){
+
+    .hero-background{
+        margin-top: 20%;
+        width: 100%;
+    }
+
+    .heroheading{
+        font-weight: 900;
+        font-size: 400%;
+    }
+
+    .heroexplination{
+        font-size: 200%;
+    }
+
+    .herobox{
+        width: 80%;
+        margin: 0px;
+        justify-self: center;
+        align-self: center;
+        left: 10%;
+        right: 10%;
+    }
+    
+
+}
+
+@media screen and (max-width: 1000px){
+
+    .hero-background{
+        margin-top: 20%;
+        width: 100%;
+    }
+
+    .heroheading{
+        font-weight: 900;
+        font-size: 300%;
+    }
+
+    .heroexplination{
+        font-size: 150%;
+    }
+
+    .herobox{
+        width: 80%;
+        margin: 0px;
+        justify-self: center;
+        align-self: center;
+        left: 10%;
+        right: 10%;
+    }   
+}
+
+@media screen and (max-width: 700px){
+    .events-container{
+        background-color: black;
+    }
+
+    .heroheading{
+    font-weight: 900;
+    font-size: 200%;
+    }
+
+    .heroexplination{
+        font-size: 125%;
+    }
+
+    .herobox{
+        width: 80%;
+        margin: 0px;
+        justify-self: center;
+        align-self: center;
+        left: 10%;
+        right: 10%;
+    }
+
+}
+

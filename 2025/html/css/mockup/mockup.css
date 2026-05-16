@@ -1,0 +1,174 @@
+h1 {
+    font-size: 30px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.button1 {
+    height: 50px;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+     ;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.wi20pxdth {
+    width: 20px;
+}
+
+.end {
+    display: flex;
+    justify-self:end;
+}
+
+.start {
+    display: flex;
+    justify-self: start;
+}
+
+.wi30pxdth {
+    width: 30px;
+}
+
+.button1 {
+    background-color: transparent;
+    border: solid black;
+    border-radius: 10px;
+    width: 156px;
+    font-size: 15px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+.collumn {
+    display: flex;
+    flex-direction: column;
+}
+
+.checkbox {
+    align-self: center;
+    height: 28px;
+    width: 28px;
+}
+
+.section1 {
+    display: flex;
+    justify-content:center;
+    background-color: aliceblue;
+    align-items: center;
+    height: 500px;
+}
+
+.p1 {
+    width: 522px;
+    color: gray;
+}
+
+p {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.img1 {
+    height: 282.5px;
+}
+
+.height1 {
+    height: 100px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.h4 {
+    font-size: 52px;
+    font-family:"Poppins", serif;
+    height: 2px;
+}
+
+.p2 {
+    font-size: 18px;
+    font-family:"Poppins", serif;
+    color: gray;
+    height: 2px;
+}
+
+.h6 {
+    font-size: 18px;
+    font-family:"Poppins", serif;
+    color: gray;
+    height: 2px;
+}
+
+.h2 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.specialdivs {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.padding1 {
+    padding: 30px;
+    min-width: 235px;
+}
+
+h3 {
+    font-family: "Poppins", serif;
+    font-size: 30px;
+    width: 656px;
+    text-align: center;
+}
+
+footer {
+    background-color: #0F172A;
+    justify-content: space-evenly;
+    color: white;
+    height: 250px;
+    align-items: center;
+    width:inherit;
+     ;
+}
+
+.footerdiv {
+    display: flex;
+    align-self: center;
+    width: 600px;
+}
+
+.padding2 {
+    padding-right: 30px;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-decoration: none;
+}
+
+.wipxdth {
+    width: 60px;
+}
+
+section {
+    display: flex;
+     ;
+}
+
+.wrap{
+    display: flex;
+    flex-wrap: wrap;
+}

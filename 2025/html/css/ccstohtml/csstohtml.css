@@ -1,0 +1,107 @@
+section{
+    display: flex;
+    flex-direction: column;
+    -ms-flex-align: center;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 30px;
+}
+
+body {
+    display: flex;
+    background-color: #1A212D;
+    color: white;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+
+.agree {
+    background-color: #E2A26F;
+    border: 10px;
+    width: 150px;
+    height: 30px;
+    border-radius: 5px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.disagree {
+    background-color: #1A212D;
+    border-color:#E2A26F ;
+    width: 150px;
+    height: 30px;
+    color: white;
+    border-style:solid;
+    border-radius: 5px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.uncolumn {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+}
+
+.padding {
+    display: flex;
+    padding: 10px;
+}
+
+.corners {
+    display: flex;
+    border-radius: 25px;
+}
+
+.section1 {
+    display: flex;
+    border-color: gainsboro;
+    border: 5px
+}
+
+.height {
+    height: 175px;
+}
+
+.borderdots {
+    display: flex;
+    border: dashed 5px #797979;
+    border-radius: 20px;
+    padding: 20px;
+    height: 175px;
+    width: 500px;
+    border-image-slice: 15px;
+
+}
+
+.fontroboto {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.fontanton {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.bold{
+    -webkit-text-stroke-width: 1px;
+}
+
+.hfont {
+    font-family: "Anton", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.widthbutton {
+    width: 300px;
+}

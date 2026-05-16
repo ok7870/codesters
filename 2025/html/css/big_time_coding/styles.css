@@ -1,0 +1,43 @@
+header{
+    display: flex;
+    justify-content: center;
+}
+
+.shoplogo{
+    height: 100px;
+    width: 196.8365553602812px;
+}
+
+.h1shirts {
+    color: #f8a426;
+    justify-self: center;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+body{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+}
+
+.sellpage{
+    display: flex;
+    justify-content: center;
+    border: 1px solid #7F7C7C;
+    width: 500px;  
+    height: 750px;
+    border-radius: 10px;
+}
+
+.pr1c1{
+
+}
+
+h3 {
+    height: 20px;
+}
+
+p {
+    color: #7F7C7C;
+}

@@ -1,3 +1,70 @@
-<head>
+<html>
+    <head>
+        <link href="mainstyles.css" rel="stylesheet" type="text/css">
+        <script>
+            function sendfile(){
+                vastus1.innerText=sisend.value
+            }
+        </script>
+
+        <style>
+        :root {
+            --bg: #fafafa;
+            --surface: #ffffff;
+            --border: #e4e4e4;
+            --border-focus: #a0a0a0;
+            --text-primary: #1a1a1a;
+            --text-secondary: #6b6b6b;
+            --text-muted: #a0a0a0;
+            --accent: #1a1a1a;
+            --accent-hover: #333;
+            --success-bg: #f0fdf4;
+            --success-border: #bbf7d0;
+            --success-text: #15803d;
+            --error-bg: #fff1f2;
+            --error-border: #fecdd3;
+            --error-text: #be123c;
+            --radius: 8px;
+            --font: 'Georgia', serif;
+            --font-mono: 'Courier New', monospace;
+            }
+
+        textarea {
+            width: 100%;
+            min-height: 220px;
+            border: 1px solid var(--border);
+            border-radius: var(--radius);
+            padding: 0.9rem 1rem;
+            font-family: var(--font-mono);
+            font-size: 0.875rem;
+            line-height: 1.6;
+            color: var(--text-primary);
+            background: var(--surface);
+            resize: vertical;
+            outline: none;
+            transition: border-color 0.15s;
+            }
+        </style>
+
+    </head>
+
     
-</head>
+
+    <body>
+        <section class="header"></section>
+        <section class="site">
+            <div>hello world</div>
+            <textarea name="give me infor" id="sisend">give me info</textarea>
+            <button onclick="sendfile()">button</button>
+            
+        </section>
+        <section>
+            <p id="vastus1">abc</p>
+        </section>
+
+        <section class="foot"></section>
+    </body>
+
+
+</html>
+

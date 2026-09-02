@@ -32,6 +32,6 @@ function ex3() {
 
 //ex4
 function ex4() {
-    let ex4in = document.getElementById("ex4in").value.split("");
-    decument.getElementById("ex4r").innerHTML = ex4in.reverse().join("");
+    console.log(document.getElementById("ex4in").value.split("").reverse().join(""));
+    document.getElementById("ex4r").innerHTML = document.getElementById("ex4in").value.split("").reverse().join("");
 }

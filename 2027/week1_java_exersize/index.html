@@ -2,14 +2,27 @@
 <html>
 <head>
     <title>Inline Scripting Example</title>
-    
+    <link rel="stylesheet" href="./somedesign.css" type="text/css">
 </head>
 <body>
     <!-- Your HTML content goes here -->
      <div>
-        <button onclick="ex1()">
-            <p id="ex1r"></p>
-        </button>
+        <h1>exersize numberd 1</h1>
+        <button onclick="ex1()"> exersize 1</button>
+        <input id="ex1in" type="text" placeholder="ferenheight numbers only">
+        <p id="ex1r">no answer yet, try pressing the big button</p>
+     </div>
+     <div>
+        <h1>an another exersize numberd 2</h1>
+        <button onclick="ex2()"> exersize 2</button>
+        <input id="ex2in" type="text" placeholder="coma separated values 1, 2, 3, 4, ...">
+        <p id="ex2r">no answer yet, try pressing the big button</p>
+     </div>
+     <div>
+        <h1>exersize wich im calling dave but is numberd 3</h1>
+        <button onclick="ex3()">DAVE</button>
+        <input type="text" id="ex3in" placeholder="daves personal information : Dave, Doe, 23, japan or greenland im not quite sure">
+        <p id="ex3r">i wonder why dave hasnt sopken yet, are you sure that you enterd his inforamtion correctly because the code is defenetly not broken. also did you press the button? its labled Dave :D.</p>
      </div>
 </body>
 <script src="script.js"></script>

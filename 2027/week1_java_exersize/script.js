@@ -22,11 +22,16 @@ function ex2() {
 }
 
 //ex3
-//Dave, Doe, 23, japan or greenland im not quite sure
 
 function ex3() {
     let ex3in = document.getElementById("ex3in").value.split(", ");
     if (ex3in)
     console.log("Hello, my name is " + ex3in[0] + " i probably have a family name aswell instead of a middle name wich should be" + ex3in[1] + " unless you wrote my name witout a coma. Anyways I am" + ex3in[2] + " years old and live in" + ex3in[3] + ". i do wonder how you got all of that info about me.");
     document.getElementById("ex3r").innerHTML = "Hello, my name is " + ex3in[0] + " i probably have a family name aswell instead of a middle name wich should be " + ex3in[1] + " unless you wrote my name witout a coma. Anyways I am " + ex3in[2] + " years old and live in " + ex3in[3] + ". i do wonder how you got all of that info about me."
+}
+
+//ex4
+function ex4() {
+    let ex4in = document.getElementById("ex4in").value.split("");
+    decument.getElementById("ex4r").innerHTML = ex4in.reverse().join("");
 }

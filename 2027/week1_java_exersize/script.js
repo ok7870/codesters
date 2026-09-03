@@ -38,6 +38,7 @@ function ex4() {
 //ex5
 function ex5() {
     let ex5in = document.getElementById("ex5in").value.split(", ").map(Number);
+    console.log(ex5in);
     let ex5out= ex5in[0];
     for (i of ex5in) {
         if (i > ex5out) {
@@ -50,7 +51,14 @@ function ex5() {
 
 //ex6
 function ex6() {
-    let ex6in = document.getElementById("ex6in").value.split(", ").map(Number);
+    let ex6intemp = document.getElementById("ex6in").value.split(", ");
+    console.log(ex6intemp);
+    if (ex6intemp.length === 1 && ex6intemp[0] === "") {
+        console.log("you didnt even give me a list of numbers to work with, how am i supposed to find positive numbers in that?");
+        document.getElementById("ex6r").innerHTML = "you didnt even give me a list of numbers to work with, how am i supposed to find positive numbers in that?";
+        return;
+    }
+    let ex6in = ex6intemp.map(Number);
     let ex6r = [];
     for (i of ex6in) {
         if (i>=0) {

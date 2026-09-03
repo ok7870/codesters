@@ -10,7 +10,6 @@ function ex1() {
 //ex2
 function ex2() {
     let ex2in = document.getElementById("ex2in").value.split(", ").map(Number);
-    let passed_the_number_check = [];
     let sumof_numbers = 0;
     for (const number of ex2in) {
         if (number % 2 === 0) { 
@@ -34,4 +33,33 @@ function ex3() {
 function ex4() {
     console.log(document.getElementById("ex4in").value.split("").reverse().join(""));
     document.getElementById("ex4r").innerHTML = document.getElementById("ex4in").value.split("").reverse().join("");
+}
+
+//ex5
+function ex5() {
+    let ex5in = document.getElementById("ex5in").value.split(", ").map(Number);
+    let ex5out= ex5in[0];
+    for (i of ex5in) {
+        if (i > ex5out) {
+            ex5out = i;
+        }
+    }
+    console.log(ex5out);
+    document.getElementById("ex5r").innerHTML = ex5out;
+}
+
+//ex6
+function ex6() {
+    let ex6in = document.getElementById("ex6in").value.split(", ").map(Number);
+    let ex6r = [];
+    for (i of ex6in) {
+        if (i>=0) {
+            ex6r.push(i);
+        }
+    }
+    if (ex6r.length === 0) {
+        ex6r = "what a lie you've told me, there are no positive numbers in this list";
+    }
+    console.log(ex6r);
+    document.getElementById("ex6r").innerHTML = ex6r;
 }

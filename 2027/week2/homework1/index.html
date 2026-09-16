@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Inline Scripting Example</title>
+    <link rel="stylesheet" href="./somedesign.css" type="text/css">
+</head>
+<body>
+    <div>
+        <h1>interactive button</h1>
+        <button onclick="ex1()" id="ex1_button">click me, if you dare</button>
+    </div>
+    <div>
+        <h1>content toggle</h1>
+        <div>
+            <div id="button_fuckery">
+                <button onclick="ex2ppara1()" id="bpara1">paragraph 1</button>
+                <button onclick="ex2ppara2()" id="bpara2">paragraph 2</button>
+            </div>
+            <div id="paragraphs">
+                <div id="ppara1">
+                    <p>yoooo, good morning</p>
+                </div>
+                <div style="display: none;" id="ppara2">
+                    <p>yoooo, go to bed its night time</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>

@@ -69,5 +69,5 @@ function ex6() {
         ex6r = "what a lie you've told me, there are no positive numbers in this list";
     }
     console.log(ex6r);
-    document.getElementById("ex6r").innerHTML = ex6r;
+    document.getElementById("ex6r").textContent = ex6r;
 }

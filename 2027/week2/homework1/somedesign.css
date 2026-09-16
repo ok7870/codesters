@@ -1,0 +1,36 @@
+p {
+    color: blue;
+    font-weight: bold;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    background-color: lightblue;
+    border: 1px solid black;
+    align-items: center;
+    margin: 30px;
+}
+
+button {
+    width: 100px;
+    height: 50px;
+    margin: 10px;
+}
+
+#button_fuckery {
+    all: unset;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#paragraphs {
+    flex-direction: row;
+}
+
+#ppara1, #ppara2 {
+    border: unset;
+}

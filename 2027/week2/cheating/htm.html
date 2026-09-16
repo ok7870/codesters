@@ -1,0 +1,13 @@
+<select id="colorSelect">
+  <option value="red">Red</option>
+  <option value="green">Green</option>
+  <option value="blue">Blue</option>
+</select>
+
+<script>
+var colorSelect = document.getElementById('colorSelect');
+colorSelect.onchange = function() {
+  document.body.style.backgroundColor = colorSelect.value;
+}
+</script>
+

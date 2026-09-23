@@ -1,0 +1,51 @@
+section {
+    width: 100%;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: grey;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:left;
+    background-color:darkslategrey;
+    height: 75px;
+
+}
+
+p {
+    margin: 0%;
+    justify-self: center;
+}
+
+#dwarf_image {
+    display: flex;
+    justify-self: center;
+    width: 60%;
+    position: absolute;
+    z-index: 75px;
+}
+.header_button {
+    margin-left: 2%;
+}
+
+.grid_size_title {
+    color: white;
+    font-weight: bolder;
+}
+
+.game_tile {
+    height: 20px;
+    width: 20px;
+    background-color: black;
+}
+
+#game_section {
+    display: flex;
+    flex-direction: row;
+}

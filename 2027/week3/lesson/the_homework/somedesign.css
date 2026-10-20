@@ -28,7 +28,7 @@ p {
     justify-self: center;
     width: 60%;
     position: absolute;
-    z-index: 75px;
+    z-index: 1;
 }
 .header_button {
     margin-left: 2%;
@@ -47,5 +47,23 @@ p {
 
 #game_section {
     display: flex;
+    flex-direction: column;
+    height: max-content;
+    align-items: center;
+    justify-content: space-around;
+    justify-self: center;
+    z-index: 2;
+}
+
+.row {
     flex-direction: row;
+    width: 50%;
+    height: fit-content;
+    z-index: 2;
+}
+
+.game_title {
+    width: 20%;
+    aspect-ratio: 1/1;
+    z-index: 2;
 }

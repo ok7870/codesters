@@ -1,0 +1,9 @@
+img {
+    height: 100px;
+    width: 100px;
+}
+
+.selector {
+    display: flex;
+    align-items: center;
+}

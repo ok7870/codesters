@@ -30,8 +30,8 @@ let current_hat = 0;
 let current_shirt = 0;
 let current_pants = 0;
 
-document.getElementById("image_hats").src = String(hats[0]);
-console.log(hats[0]);
+document.getElementById("image_hats").src = String(hats[current_hat]);
+console.log(hats[current_hat]);
 
 document.addEventListener("left_hats"), () => {
   

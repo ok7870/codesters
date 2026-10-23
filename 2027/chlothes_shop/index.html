@@ -3,7 +3,7 @@
 <head>
     <title>clothes shop</title>
     <link rel="stylesheet" href="styles.css" type="text/css">
-    <link rel="script" href="script.js">
+    <script src="script.js"></script>
 </head>
 </html>
 
@@ -11,19 +11,20 @@
     <h1>the clothes shop</h1>
     <section>
         <div id="hats" class="selector">
-            <button id="left_hats">left</button>
+            <button id="left_hats" onclick="change_hat_L()">left</button>
             <img id="image_hats" src="https://i.imgur.com/qCcovAh.png" alt="">
-            <button id="right_hats">right</button>
+            <button id="right_hats" onclick="change_hat_R()">right</button>
         </div>
         <div id="shirts" class="selector">
-            <button id="left_shirts">left</button>
-            <img id="image_shirts" src="" alt="">
-            <button id="right_shirts">right</button>
-        </div>        
+            <button id="left_shirts" onclick="change_shirt_L()">left</button>
+            <img id="image_shirts" src="https://i.imgur.com/eroo5Ca.png" alt="">
+            <button id="right_shirts" onclick="change_shirt_R()">right</button>
+        </div>
         <div id="pants" class="selector">
-            <button id="left_pants">left</button>
-            <img id="image_pants" src="" alt="">
-            <button id="right_pants">right</button>
+            <button id="left_pants" onclick="change_pants_L()">left</button>
+            <img id="image_pants" src="https://i.imgur.com/TqKPjuX.png" alt="">
+            <button id="right_pants" onclick="change_pants_R()">right</button>
         </div>
     </section>
+    <button class="randomize" onclick="randomize()">randomize</button>
 </body>
